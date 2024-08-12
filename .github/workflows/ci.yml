@@ -33,7 +33,7 @@ jobs:
 #        if: ${{contains (github.event.head_commit.merge, "test commit")}}
 
 
-      - name: Upload jat to GitHub
+      - name: Upload jar to GitHub
         if: ${{success()}}
         uses: actions/upload artifact@v3
         with:
