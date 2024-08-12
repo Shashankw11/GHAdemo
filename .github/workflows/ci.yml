@@ -35,7 +35,7 @@ jobs:
 
       - name: Upload jar to GitHub
         if: ${{success()}}
-        uses: actions/upload artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: myapp-jar
           path: target/*.jar
