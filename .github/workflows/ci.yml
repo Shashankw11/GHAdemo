@@ -27,6 +27,7 @@ jobs:
 
       - name: Build
         run: mvn clean install
+        if: ${{contains (github.event.head_commit.merge, "test commit")}}
 
 #      - name: Test
 #        run: mvn test
