@@ -1,0 +1,11 @@
+org\revature\springbootdemo\controllers\TaskController.class
+org\revature\springbootdemo\dao\TaskRepository.class
+org\revature\springbootdemo\SpringbootdemoApplication.class
+org\revature\springbootdemo\dao\ProjectRepository.class
+org\revature\springbootdemo\controllers\ProjectController.class
+org\revature\springbootdemo\models\Project.class
+CorsConfig$1.class
+CorsConfig.class
+org\revature\springbootdemo\services\TaskService.class
+org\revature\springbootdemo\models\Task.class
+org\revature\springbootdemo\services\ProjectService.class
